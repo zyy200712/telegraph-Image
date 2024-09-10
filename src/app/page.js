@@ -19,7 +19,7 @@ export default function Home() {
   const [uploadStatusNum, setUploadStatusNum] = useState(0);
   const [IP, setIP] = useState('');
   const [Total, setTotal] = useState('?');
-  const [selectedOption, setSelectedOption] = useState('tgchannel'); // 初始选择第一个选项
+  const [selectedOption, setSelectedOption] = useState('vviptuangou'); // 初始选择第一个选项
 
   const origin = typeof window !== 'undefined' ? window.location.origin : '';
 
